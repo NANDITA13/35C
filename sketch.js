@@ -7,7 +7,7 @@ function preload() {
 
   dogImg = loadImage("images/dogImg.png");
   
-  happyDogIme = loadImage("image/dogImg1.png");
+  happyDogIme = loadImage("images/dogImg1.png");
 
 }
 
@@ -19,11 +19,7 @@ function setup() {
 	dog.addImage(dogImg);
   dog.scale=0.2
 
-  //happyDog=createSprite(2,2,1,1);
-  //happyDog.addImage(happyDogImg);
-  //happyDog.scale=0.2
-
-
+  
 
   database=firebase.database ();
   
@@ -43,9 +39,11 @@ function draw() {
 
     dog.addImage(happyDog);
 
+    drawSprites();
+
   }
 
-  drawSprites();
+ 
 
   
 
