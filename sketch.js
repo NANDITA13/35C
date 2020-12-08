@@ -39,9 +39,11 @@ function draw() {
 
     dog.addImage(happyDog);
 
-    drawSprites();
+   }
 
-  }
+   drawSprites();
+
+}
 
  
 
@@ -70,7 +72,7 @@ function draw() {
   }
   
 
-}
+
 
 
 
